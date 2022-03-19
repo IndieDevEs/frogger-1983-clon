@@ -1,0 +1,66 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://assets/sprites/SpritesSheet_Tiles.png" type="Texture" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 1 )
+hframes = 8
+vframes = 8
+
+[node name="Sprite2" type="Sprite" parent="."]
+position = Vector2( 16, 0 )
+texture = ExtResource( 1 )
+hframes = 8
+vframes = 8
+frame = 1
+
+[node name="Sprite3" type="Sprite" parent="."]
+position = Vector2( 32, 0 )
+texture = ExtResource( 1 )
+hframes = 8
+vframes = 8
+frame = 8
+
+[node name="Sprite4" type="Sprite" parent="."]
+position = Vector2( 48, 0 )
+texture = ExtResource( 1 )
+hframes = 8
+vframes = 8
+frame = 9
+
+[node name="Sprite5" type="Sprite" parent="."]
+position = Vector2( 0, 16 )
+texture = ExtResource( 1 )
+hframes = 8
+vframes = 8
+frame = 16
+
+[node name="Sprite6" type="Sprite" parent="."]
+position = Vector2( 16, 16 )
+texture = ExtResource( 1 )
+hframes = 8
+vframes = 8
+frame = 24
+
+[node name="Sprite7" type="Sprite" parent="."]
+position = Vector2( 32, 16 )
+texture = ExtResource( 1 )
+hframes = 8
+vframes = 8
+frame = 32
+
+[node name="Sprite8" type="Sprite" parent="."]
+position = Vector2( 48, 16 )
+texture = ExtResource( 1 )
+hframes = 8
+vframes = 8
+frame = 40
+
+[node name="Sprite9" type="Sprite" parent="."]
+position = Vector2( -16, 0 )
+texture = ExtResource( 1 )
+hframes = 8
+vframes = 8
+frame = 48
